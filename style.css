@@ -10,12 +10,12 @@ a {
 
 body {
   font-family: "Actor", sans-serif;
-  background-image: url(images/main-bg.png);
-  background-size: cover;
-  background-position: center;
+  background-color: #e7e1d5;
 }
 
 .landing-page {
+  background-image: url(images/main-bg.png);
+  background-size: cover;
   height: 100vh;
   color: #fff;
   display: flex;
