@@ -15,11 +15,13 @@ body {
 
 .landing-page {
   background-image: url(images/main-bg.png);
-  background-position: top;
+  background-position: center;
+  background-size: cover;
   height: 100vh;
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .normal-btn {
@@ -30,5 +32,5 @@ body {
   border: none;
   color: #fff;
   box-shadow: 1px 2px 5px 0px #000000a9;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
