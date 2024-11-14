@@ -14,6 +14,8 @@ body {
 
 .landing-page {
   background-image: url(images/main-bg.png);
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   color: #fff;
   display: flex;
